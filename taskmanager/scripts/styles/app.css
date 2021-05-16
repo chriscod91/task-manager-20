@@ -1,0 +1,74 @@
+body {
+ background-image: linear-gradient(to bottom right,black, rgb(0, 70, 0), black);
+}
+
+main {
+  display: flex;
+}
+.hide {
+  display: none;
+}
+#list {
+  flex: 2;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  
+}
+
+#details {
+  flex: 1;
+  background-image:url("img/task.jpg");
+  padding: 20px;
+  box-shadow: -3px 0 16px rgba(19, 169, 255, 0.719);
+  border-radius:30px;
+  color: rgb(0, 255, 76);
+  font-weight: 900;
+  font-size: 35px;
+  margin-bottom: 22rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.icon-fav {
+  font-size: 32px;
+}
+
+.task {
+  background-color: rgb(255, 255, 255);
+  padding: 14px;
+  margin-top: 10px;
+  border-radius:30px;
+  color: rgb(0, 255, 76);
+  background-image:url("img/task.jpg");
+  font-weight: 900;
+  font-size: 25px;
+  box-shadow: -3px 0 16px rgba(19, 169, 255, 0.719);
+  margin-bottom: 1rem;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.task-list{
+    padding: 15px;
+}
+
+.h4 {
+  padding-right: 50px;
+  font-weight: 700;
+}
+
+.task #iDelete{
+    float: right;
+    font-weight: 900;
+    width: 50px;
+}
+
+.task #iDelete:hover{
+    color: red;
+}
+
+.control #btnSave:hover{
+    color: rgb(0, 255, 76);
+}
+
+#btnDetails:hover{
+    color: rgb(0, 255, 76);
+}
